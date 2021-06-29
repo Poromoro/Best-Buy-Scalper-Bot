@@ -31,5 +31,11 @@ Created in Python
 ## Notes
 Currently only operational for shipping orders, not pickup.
 
+## Possible Fixes
+Orders that direct you to a queue 
+
+
+Low cost orders may not need a ccv to be inputted
+
 
 
