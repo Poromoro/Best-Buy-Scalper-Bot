@@ -88,7 +88,7 @@ if placeOrder:
             browser.find_element_by_id("credit-card-cvv").send_keys(login.ccv)
                 #inputs ccv
          wait.until(EC.visibility_of_element_located((By.ID, "credit-card-cvv"))).send_keys(login.ccv)
-         #browser.find_element_by_class_name("btn-primary").click()
+         browser.find_element_by_class_name("btn-primary").click()
          print("ORDER PLACED")
 
     except Exception as e:
